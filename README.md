@@ -64,23 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-omikuji-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+omikuji.dev is a Japanese personal blog and tool hub that shares gadget reviews, home‑server projects, parenting and daily life notes. It also offers a collection of free browser‑only tools such as emoji, kaomoji, color palettes, holiday calendars, vehicle‑plate lookup, and many more, all open to the public.
 
-**Areas:** Company
+**Areas:** Company · Blog · Tools · Gadgets · Personal-Development
 
 ## omikuji-dev on APIs.io
 
 Everything profiled for omikuji-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/omikuji-dev/](https://apis.io/providers/omikuji-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MCP API](https://apis.io/apis/omikuji-dev/mcp-api/) — MCP (Machine-Readable API) endpoint requiring OAuth authentication, returning 401 when accessed anonymously.
+- [omikuji-dev API](https://apis.io/apis/omikuji-dev/omikuji-dev-api/) — omikuji-dev API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetCdnCgiTraceResponse](https://apis.io/schemas/omikuji-dev/omikuji-dev-get-cdn-cgi-trace-response/)
+- [GetRestNetworkconfResponse](https://apis.io/schemas/omikuji-dev/omikuji-dev-get-rest-networkconf-response/)
+- [PostApiMcpAuthCallbackRequest](https://apis.io/schemas/omikuji-dev/omikuji-dev-post-api-mcp-auth-callback-request/)
+- [PostMcpResponse](https://apis.io/schemas/omikuji-dev/omikuji-dev-post-mcp-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Omikuji Dev Context](https://apis.io/jsonld/omikuji-dev/omikuji-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [omikuji-dev API Rules](https://apis.io/rules/omikuji-dev/omikuji-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Omikuji Dev Authentication](https://apis.io/security/omikuji-dev/omikuji-dev-authentication/)
+- [Omikuji Dev Domain Security](https://apis.io/security/omikuji-dev/omikuji-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Omikuji Dev Scopes](https://apis.io/scopes/omikuji-dev/omikuji-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Omikuji Dev Plans Pricing](https://apis.io/plans/omikuji-dev/omikuji-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Omikuji Dev Rate Limits](https://apis.io/rate-limits/omikuji-dev/omikuji-dev-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://omikuji.dev/)
+- [Documentation](https://dev.hatenablog.com/)
+- [Getting started](https://omikuji.dev/about/)
+- [Support](https://omikuji.dev/contact/)
+- [Blog](https://omikuji-dev.hatenablog.com/)
+- [Terms of service](https://omikuji.dev/terms/)
+- [Privacy policy](https://omikuji.dev/privacy/)
+- [GitHub](https://github.com/omikuji)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/omikuji-dev/](https://apis.io/providers/omikuji-dev/).
+**Kin Score 41.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 51.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/omikuji-dev/](https://apis.io/providers/omikuji-dev/).
 
 ## How this profile is made
 
